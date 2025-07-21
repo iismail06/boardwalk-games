@@ -25,7 +25,44 @@
 
 <body class="d-flex flex-column min-vh-100">
   <!----Navigation-->
-  <div> Navigation</div>
+<!-- -expand-lg class - collapsed on mobile and tablet, and expanded on desktop.
+ -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!--Adjust the container-fluid element in the navbar to a container class instead.
+This will give the logo and nav items the same outer margin as the rest of our grid.
+
+-->
+    <div class="container">
+      <a class="navbar-brand" href="index.html">logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="game-library.htm">Games</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button type="button" class="btn btn-secondary">Book Now</button>
+  </nav>
+
 
   <!---Header with carousel--->
   <header>
@@ -52,7 +89,7 @@
   </main>
 
   <!--Footer / contact section-->
-   <!----mt-auto on footer to ensure it always stay at the bottom of the page-->
+  <!----mt-auto on footer to ensure it always stay at the bottom of the page-->
 
   <footer class="mt-auto">
     <div class="container">

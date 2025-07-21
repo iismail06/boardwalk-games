@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
 /* Google fonys import */
 
 
@@ -23,11 +23,11 @@ h1, h2, h3 {
 .sub-heading-color {
     color:var(--highlight-color);
 }
-
+/*
 .container.row {
     border: 2px solid black;
 }
 .col-12{
     border: 2px solid white;
     background-color: pink;
-}
+}*/
