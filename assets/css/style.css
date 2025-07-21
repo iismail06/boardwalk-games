@@ -1,5 +1,4 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
 /* Google fonys import */
 
 
@@ -7,39 +6,69 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Mocondo", cursive;
-    --primary-color: #3a2620; /*dark brown*/
-    --secondary-color: #aa9581; /* light brown*/
-    --highlight-color:#416a8e; /* blue*/
-    --highlight-color-light:#7a9fc2;/* light blue*/
+    --primary-color: #3a2620;
+    /*dark brown*/
+    --secondary-color: #aa9581;
+    /* light brown*/
+    --highlight-color: #416a8e;
+    /* blue*/
+    --highlight-color-light: #7a9fc2;
+    /* light blue*/
 }
+
 /* Global styles*/
 body {
     font-family: var(--primary-font);
 }
-h1, h2, h3 {
-    font-family:var(--secondary-font) ;
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
 }
-.sub-heading-color {
-    color:var(--highlight-color);
+
+h2 {
+    margin-bottom: 2rem;
 }
-.section{
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 /* Navbar Elements */
 .navbar {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
 }
+
 .logo {
     width: 30px;
 }
+
 /* Header */
-.lead{
+.lead {
     font-family: var(--secondary-font);
 }
 
+/* Services */
+.card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+.card{
+    margin-bottom: 1.5rem;
+}
 
 
 /*
