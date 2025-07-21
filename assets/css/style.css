@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
+/* Google fonys import */
+
+
+/* Gernerally  Style */
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-family: "Mocondo", cursive;
+}
