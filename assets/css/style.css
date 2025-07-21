@@ -66,10 +66,17 @@ h2 {
     color: var(--highlight-color);
     background-color: transparent;
 }
-.card{
+
+.card {
     margin-bottom: 1.5rem;
 }
 
+/* game-library*/
+.new-games,
+.fav-games {
+    border: none;
+
+}
 
 /*
 .container.row {
@@ -84,30 +91,62 @@ h2 {
 /*Media queries*/
 
 /*medium devices (tablets, 768px and up)*/
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
+
     /* Make all service cards the same height for consistency*/
     .card-body {
         min-height: 190px;
     }
-/*large devices (small laptop, 992px and up)*/
-    @media screen and (min-width:992px){
-    /* Make all service cards the same height for consistency*/
-    .card-body {
+
+    /* game-library*/
+    .new-games,
+    .fav-games {
+        min-height: 310px;
+    }
+
+    /*large devices (small laptop, 992px and up)*/
+    @media screen and (min-width:992px) {
+
+        /* Make all service cards the same height for consistency*/
+        .card-body {
+            min-height: auto;
+        }
+    }
+
+    /* game-library*/
+    .new-games,
+    .fav-games {
         min-height: auto;
     }
-}
-/*Extra large devices (laptop, > 1200px and up)*/
-    @media screen and (min-width:1200px){
-    /* Make all service cards the same height for consistency*/
-    .card-body {
-        min-height: 220px;
+
+    /*Extra large devices (laptop, > 1200px and up)*/
+    @media screen and (min-width:1200px) {
+
+        /* Make all service cards the same height for consistency*/
+        .card-body {
+            min-height: 220px;
+        }
+
+        /* game-library*/
+        .new-games,
+        .fav-games {
+            min-height: 330px;
+        }
     }
-}
-/*Extra extra large devices (laptop, > 1400px and up)*/
-    @media screen and (min-width:1400px){
-    /* Make all service cards the same height for consistency*/
-    .card-body {
-        min-height: 195px;
+
+
+    /*Extra extra large devices (laptop, > 1400px and up)*/
+    @media screen and (min-width:1400px) {
+
+        /* Make all service cards the same height for consistency*/
+        .card-body {
+            min-height: 195px;
+        }
+
+        /* game-library*/
+        .new-games,
+        .fav-games {
+            min-height: 320px;
+        }
     }
-}
 }
