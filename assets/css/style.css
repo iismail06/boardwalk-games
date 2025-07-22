@@ -52,16 +52,20 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
 }
+
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
     color: white;
 }
+
 .custom-button-outlier {
     border: 3px solid var(--highlight-color);
-    background-color: var(--highlight-color);
+    background-color: white;
     padding: 7px 25px;
+    color:var(--primary-color);
 }
+
 .custom-button-outlier:hover {
     color: white;
     background-color: var(--highlight-color-light);
@@ -92,6 +96,20 @@ h2 {
 .card {
     margin-bottom: 1.5rem;
 }
+/*Events section */
+.student {
+  background-color: var(--highlight-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  display: inline-block;        /* This is key */
+  text-align: center;
+}
+
+#event .table td, .table th {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 
 /* game-library*/
@@ -102,36 +120,45 @@ h2 {
 
 /*Footer / contact section */
 footer {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
 }
+
 footer h2 {
     color: white;
 }
+
 footer sub-heading-color {
     color: var(--highlight-color-light);
 }
- footer i {
+
+footer i {
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-right: 15px;
-    
+
 }
+
 footer .social-link * {
     color: var(--highlight-color-light);
     font-size: 1.9;
-    transition:color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
+
 footer .social-link:hover * {
     color: var(--secondary-color);
 }
+
 footer .table-dark * {
     background-color: transparent;
 }
+
 #contact {
-  scroll-margin-top: 100px; /* Adjust based on navbar height */
+    scroll-margin-top: 100px;
+    /* Adjust based on navbar height */
 }
+
 
 
 
@@ -162,49 +189,55 @@ footer .table-dark * {
         min-height: 310px;
     }
 
-    /*large devices (small laptop, 992px and up)*/
-    @media screen and (min-width:992px) {
+   
+}
 
-        /* Make all service cards the same height for consistency*/
-        .card-body {
-            min-height: auto;
-        }
+/*large devices (small laptop, 992px and up)*/
+@media screen and (min-width:992px) {
+
+    /* Make all service cards the same height for consistency*/
+    .card-body {
+        min-height: auto;
+    }
+}
+
+/* game-library*/
+.new-games,
+.fav-games {
+    min-height: auto;
+}
+
+/*Extra large devices (laptop, > 1200px and up)*/
+@media screen and (min-width:1200px) {
+
+    /* Make all service cards the same height for consistency*/
+    .card-body {
+        min-height: 220px;
     }
 
     /* game-library*/
     .new-games,
     .fav-games {
-        min-height: auto;
+        min-height: 330px;
+    }
+}
+
+
+/*Extra extra large devices (laptop, > 1400px and up)*/
+@media screen and (min-width:1400px) {
+
+    /* Make all service cards the same height for consistency*/
+    .card-body {
+        min-height: 195px;
     }
 
-    /*Extra large devices (laptop, > 1200px and up)*/
-    @media screen and (min-width:1200px) {
-
-        /* Make all service cards the same height for consistency*/
-        .card-body {
-            min-height: 220px;
-        }
-
-        /* game-library*/
-        .new-games,
-        .fav-games {
-            min-height: 330px;
-        }
+    /* game-library*/
+    .new-games,
+    .fav-games {
+        min-height: 320px;
     }
-
-
-    /*Extra extra large devices (laptop, > 1400px and up)*/
-    @media screen and (min-width:1400px) {
-
-        /* Make all service cards the same height for consistency*/
-        .card-body {
-            min-height: 195px;
-        }
-
-        /* game-library*/
-        .new-games,
-        .fav-games {
-            min-height: 320px;
-        }
-    }
+    #events.table {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
