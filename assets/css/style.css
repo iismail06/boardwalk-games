@@ -71,12 +71,36 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+
+
 /* game-library*/
 .new-games,
 .fav-games {
     border: none;
-
 }
+
+/*Footer / contact section */
+footer {
+    background-color:var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+footer h2 {
+    color: white;
+}
+footer sub-heading-color {
+    color: var(--highlight-color-light);
+}
+ footer i {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition:color 0.3s ease-in-out;
+}
+footer i:hover {
+    color: var(--primary-color);
+}
+
 
 /*
 .container.row {
