@@ -95,10 +95,21 @@ footer sub-heading-color {
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-right: 15px;
+    
+}
+footer .social-link * {
+    color: var(--highlight-color-light);
+    font-size: 1.9;
     transition:color 0.3s ease-in-out;
 }
-footer i:hover {
-    color: var(--primary-color);
+footer .social-link:hover * {
+    color: var(--secondary-color);
+}
+footer .table-dark * {
+    background-color: transparent;
+}
+#contact {
+  scroll-margin-top: 100px; /* Adjust based on navbar height */
 }
 
 
