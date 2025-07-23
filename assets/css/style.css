@@ -17,8 +17,9 @@
 }
 
 /* Global styles*/
-body {
+html body {
     font-family: var(--primary-font);
+    padding-top: 58px; /* push the top of the header down under fixed navbar */;
 }
 
 h1,
