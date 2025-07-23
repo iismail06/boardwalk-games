@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Macondo&display=swap');
-/* Google fonys import */
+/* Google fonts import */
 
 
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Mocondo", cursive;
+    --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;
     /*dark brown*/
     --secondary-color: #aa9581;
@@ -142,7 +142,7 @@ footer i {
 
 footer .social-link * {
     color: var(--highlight-color-light);
-    font-size: 1.9;
+    font-size: 1.9px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -158,19 +158,6 @@ footer .table-dark * {
     scroll-margin-top: 100px;
     /* Adjust based on navbar height */
 }
-
-
-
-
-
-/*
-.container.row {
-    border: 2px solid black;
-}
-.col-12{
-    border: 2px solid white;
-    background-color: pink;
-}*/
 
 
 /*Media queries*/
