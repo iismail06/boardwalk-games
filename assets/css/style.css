@@ -169,7 +169,7 @@ footer .table-dark * {
 
     /* Make all service cards the same height for consistency*/
     .card-body {
-        min-height: 190px;
+        min-height: 315px;
     }
 
     /* game-library*/
@@ -201,7 +201,7 @@ footer .table-dark * {
 
     /* Make all service cards the same height for consistency*/
     .card-body {
-        min-height: 220px;
+        min-height: 350px;
     }
 
     /* game-library*/
@@ -217,7 +217,7 @@ footer .table-dark * {
 
     /* Make all service cards the same height for consistency*/
     .card-body {
-        min-height: 195px;
+        min-height: 315px;
     }
 
     /* game-library*/
