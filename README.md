@@ -66,6 +66,28 @@ Boardwalk Games provides a digital presence for a physical board game café, tar
 
 ![Screenshot of Booking Form](Doc./images/Screenshot%20of%20booking%20form.png)
 
-## How to Run
+## Installation & Usage
 
-Simply open `index.html` in your browser. All pages and assets are static and require no backend.
+ Clone the repository:
+
+ ```bash
+ git clone https://github.com/iismail06/boardwalk-games.git
+ ```
+
+ Navigate to the project folder:
+
+ ```bash
+ cd boardwalk-games
+ ```
+
+ Open `index.html` in your browser.
+
+No additional setup or dependencies required. All pages and assets are static and require no backend.
+
+## Known Issues & Future Improvements
+
+- No backend integration (future: add database for bookings and game inventory)
+- No authentication or user accounts
+- Accessibility can be further improved (e.g., ARIA labels, keyboard navigation)
+- Add more interactive features (e.g., game search, event RSVP)
+- Improve mobile navigation and performance
