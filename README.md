@@ -88,6 +88,5 @@ No additional setup or dependencies required. All pages and assets are static an
 
 - No backend integration (future: add database for bookings and game inventory)
 - No authentication or user accounts
-- Accessibility can be further improved (e.g., ARIA labels, keyboard navigation)
 - Add more interactive features (e.g., game search, event RSVP)
 - Improve mobile navigation and performance

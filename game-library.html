@@ -30,20 +30,20 @@
 
     <!-- -expand-lg class - collapsed on mobile and tablet, and expanded on desktop.
  -->
-    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" aria-label="Main navigation">
         <!--Adjust the container-fluid element in the navbar to a container class instead.
 This will give the logo and nav items the same outer margin as the rest of our grid.
 
 -->
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" aria-label="Boardwalk Games Home">
                 <img src="assets/favicon/logo-sm-white.png" alt="Boardwalk game logo" class="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" tabindex="0">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" role="navigation" aria-label="Site sections">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
